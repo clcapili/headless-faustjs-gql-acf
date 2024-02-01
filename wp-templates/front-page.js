@@ -5,7 +5,6 @@ import {
   Header,
   Footer,
   Main,
-  Container,
   NavigationMenu,
   Hero,
   SEO,
@@ -30,13 +29,7 @@ export default function Component() {
         menuItems={primaryMenu}
       />
       <Main>
-        <Container>
           <Hero title={'Front Page'} />
-          <div className="text-center">
-            <p>This page is utilizing the "front-page" WordPress template.</p>
-            <code>wp-templates/front-page.js</code>
-          </div>
-        </Container>
       </Main>
       <Footer title={siteTitle} menuItems={footerMenu} />
     </>
